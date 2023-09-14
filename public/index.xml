@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2023 18:49:36 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/posts/hello-world/</link>
+      <pubDate>Wed, 13 Sep 2023 18:49:36 -0700</pubDate>
+      
+      <guid>http://example.org/posts/hello-world/</guid>
+      <description>Introduction My name is Timo and I have been a Software Engineer by trade for over 20 years now. My first coding experiences reach back even further, some time in the late 80s or early 90s when I edited Basic code and memory contents of games on my Commodore C64.
+If all goes to plan, over the next few months this blog and the associated Github repository will document my journey in learning Hugo and Go as well as refreshing my knowledge about modern CSS and JavaScript.</description>
+    </item>
+    
+  </channel>
+</rss>
