@@ -6,7 +6,17 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 18:49:36 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Mar 2025 22:37:50 -0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reboot</title>
+      <link>http://example.org/posts/reboot/</link>
+      <pubDate>Mon, 03 Mar 2025 22:37:50 -0800</pubDate>
+      
+      <guid>http://example.org/posts/reboot/</guid>
+      <description>Reboot For reasons I do not want to go into here yet, I am looking into a career change and Go is used at multiple companies that I would be interested in working for, so my first step towards learning go is to revive this failed attempt at a dev blog.
+As originally planned, I will improve the UI and the feature set of this Hugo-powered blog and document my progress.</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>http://example.org/posts/hello-world/</link>
