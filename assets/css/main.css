@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@source "hugo_stats.json";
+
+.codeblock {
+  pre {
+    overflow-y: scroll;
+  }
+}

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Oh geez, really?</title>
+    <link>http://dev.org.app/posts/</link>
+    <description>Recent content in Posts on Oh geez, really?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Mar 2025 22:37:50 -0800</lastBuildDate>
-    <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.org.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reboot</title>
-      <link>http://example.org/posts/reboot/</link>
+      <link>http://dev.org.app/posts/reboot/</link>
       <pubDate>Mon, 03 Mar 2025 22:37:50 -0800</pubDate>
-      <guid>http://example.org/posts/reboot/</guid>
-      <description>&lt;h1 id=&#34;reboot&#34;&gt;Reboot&lt;/h1&gt;&#xA;&lt;p&gt;For reasons I do not want to go into here yet, I am looking into a career change and Go is used at multiple companies that I would be interested in working for, so my first step towards learning go is to revive this failed attempt at a dev blog.&lt;/p&gt;&#xA;&lt;p&gt;As originally planned, I will improve the UI and the feature set of this Hugo-powered blog and document my progress. However, I will no longer go into all the detail I used in &lt;a href=&#34;http://example.org/posts/hello-world/&#34;&gt;Hello World&lt;/a&gt;. Instead I will only document interesting (to me), larger changes.&lt;/p&gt;</description>
+      <guid>http://dev.org.app/posts/reboot/</guid>
+      <description>&lt;h1 id=&#34;reboot&#34;&gt;Reboot&lt;/h1&gt;&#xA;&lt;p&gt;For reasons I do not want to go into here yet, I am looking into a career change and Go is used at multiple companies that I would be interested in working for, so my first step towards learning go is to revive this failed attempt at a dev blog.&lt;/p&gt;&#xA;&lt;p&gt;As originally planned, I will improve the UI and the feature set of this Hugo-powered blog and document my progress. However, I will no longer go into all the detail I used in &lt;a href=&#34;http://dev.org.app/posts/hello-world/&#34;&gt;Hello World&lt;/a&gt;. Instead I will only document interesting (to me), larger changes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://example.org/posts/hello-world/</link>
+      <link>http://dev.org.app/posts/hello-world/</link>
       <pubDate>Wed, 13 Sep 2023 18:49:36 -0700</pubDate>
-      <guid>http://example.org/posts/hello-world/</guid>
+      <guid>http://dev.org.app/posts/hello-world/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;My name is Timo and I have been a Software Engineer by trade for over 20 years now. My first coding experiences reach back even further, some time in the late 80s or early 90s when I edited Basic code and memory contents of games on my Commodore C64.&lt;/p&gt;&#xA;&lt;p&gt;If all goes to plan, over the next few months this blog and the associated Github repository will document my journey in learning &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;https://go.dev&#34;&gt;Go&lt;/a&gt; as well as refreshing my knowledge about modern CSS and JavaScript.&lt;/p&gt;</description>
     </item>
   </channel>

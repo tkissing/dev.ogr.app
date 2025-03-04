@@ -1,0 +1,10 @@
+{{ define "main" }} {{ range .Site.RegularPages }}
+<section class="item p-2">
+  <h2>
+    <a href="{{ .RelPermalink }}"
+      >{{ .Title }} ({{ .Date | time.Format ":date_short" }})</a
+    >
+  </h2>
+  <div class="summary">{{ .Summary }}</div>
+</section>
+{{ end }} {{ end }}

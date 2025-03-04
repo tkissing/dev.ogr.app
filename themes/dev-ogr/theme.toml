@@ -3,9 +3,9 @@
 
 name = "Dev Ogr"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/tkissing/dev.ogr.app/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "http://dev.org.app/"
 tags = []
 features = []
 min_version = "0.41.0"
