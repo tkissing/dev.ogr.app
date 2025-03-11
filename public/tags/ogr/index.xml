@@ -6,8 +6,15 @@
     <description>Recent content in Ogr on Oh geez, really?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Mar 2025 22:37:50 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 22:10:36 -0700</lastBuildDate>
     <atom:link href="http://dev.org.app/tags/ogr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Tags</title>
+      <link>http://dev.org.app/posts/hello-tags/</link>
+      <pubDate>Mon, 10 Mar 2025 22:10:36 -0700</pubDate>
+      <guid>http://dev.org.app/posts/hello-tags/</guid>
+      <description>&lt;h1 id=&#34;tags---for-a-reason&#34;&gt;Tags - for a reason&lt;/h1&gt;&#xA;&lt;p&gt;As you can see, I added tags to my posts here. At the moment of me writing this all posts have the same tags, &lt;code&gt;hugo&lt;/code&gt; and &lt;code&gt;ogr&lt;/code&gt; because they all are in a sense about this blog and my experience learning Hugo.&lt;/p&gt;&#xA;&lt;p&gt;However, this should change soon as I started a new project. I am still in the process of deciding on some tech stack details and setting up everything, but I can already share that the Github repo lives at &lt;a href=&#34;https://github.com/tkissing/tiled-up&#34;&gt;tkissing/tiled-up&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reboot</title>
       <link>http://dev.org.app/posts/reboot/</link>
