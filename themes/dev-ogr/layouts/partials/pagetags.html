@@ -1,0 +1,14 @@
+{{ with .Params.tags }}
+<div class="my-4">
+    <span class="mr-2">Tags:</span>
+    {{ $total := len . }}
+    {{ if gt $total 0 }}
+        <!-- <br/> -->
+        {{ $subtotal := sub $total 1 }}
+        {{ range $i, $tag := . }}
+        <a href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{  partial "pill" ($tag | lower) }}</a>
+        {{ if lt $i $subtotal }} {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>

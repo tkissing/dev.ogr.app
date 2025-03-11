@@ -5,7 +5,7 @@
     
       
         
-          <link rel="stylesheet" href="/css/main.62ea4a7e253ffedcc9a892197e12c7d9b5174ea48f9656b335455784742b5534.css" integrity="sha256-YupKfiU//tzJqJIZfhLH2bUXTqSPllazNUVXhHQrVTQ=" crossorigin="anonymous">
+          <link rel="stylesheet" href="/css/main.623b7bfca78a3aa79440367c878c371df5f3df7250a4721e29941b79d155ea12.css" integrity="sha256-Yjt7/KeKOqeUQDZ8h4w3HfXz33JQpHIeKZQbedFV6hI=" crossorigin="anonymous">
         
       
     
@@ -19,8 +19,11 @@
 
 <div id="content" class="justify-center">
   <section class="single m-2">
-    <h1>Hello World (Sep 13, 2023)</h1>
-    <div class="content"><h1 id="introduction">Introduction</h1>
+    <h1 class="text-[1.2rem]">
+      Hello World (Sep 13, 2023)
+    </h1>
+
+    <div class="my-2"><h1 id="introduction">Introduction</h1>
 <p>My name is Timo and I have been a Software Engineer by trade for over 20 years now. My first coding experiences reach back even further, some time in the late 80s or early 90s when I edited Basic code and memory contents of games on my Commodore C64.</p>
 <p>If all goes to plan, over the next few months this blog and the associated Github repository will document my journey in learning <a href="https://gohugo.io/">Hugo</a> and <a href="https://go.dev">Go</a> as well as refreshing my knowledge about modern CSS and JavaScript.</p>
 <p>At least for a while, each post will line up with one commit in the git repo, giving a deeper explanation of the &ldquo;why&rdquo; and describing how I arrived at my solution and what problems I had to deal with.</p>
@@ -75,7 +78,7 @@
 <p>After typing in the above content, I was curious to see if the empty theme I had created would already contain enough code to actually render the index page of the site. To find, I started the Hugo development server.</p>
 
 <div class="codeblock overflow-hidden my-2"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lino@WIN-NEUTRON:~/github/dev.ogr.app$ hugo server -D
-</span></span><span style="display:flex;"><span>Start building sites … 
+</span></span><span style="display:flex;"><span>Start building sites …
 </span></span><span style="display:flex;"><span>hugo v0.92.2+extended linux/amd64 BuildDate<span style="color:#f92672">=</span>2023-01-31T11:11:57Z VendorInfo<span style="color:#f92672">=</span>ubuntu:0.92.2-1ubuntu0.1
 </span></span><span style="display:flex;"><span>WARN 2023/09/13 19:39:35 found no layout file <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#34;HTML&#34;</span> <span style="color:#66d9ef">for</span> kind <span style="color:#e6db74">&#34;page&#34;</span>: You should create a template file which matches Hugo Layouts Lookup Rules <span style="color:#66d9ef">for</span> this combination.
 </span></span><span style="display:flex;"><span>WARN 2023/09/13 19:39:35 found no layout file <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#34;HTML&#34;</span> <span style="color:#66d9ef">for</span> kind <span style="color:#e6db74">&#34;home&#34;</span>: You should create a template file which matches Hugo Layouts Lookup Rules <span style="color:#66d9ef">for</span> this combination.
@@ -83,16 +86,16 @@
 </span></span><span style="display:flex;"><span>WARN 2023/09/13 19:39:35 found no layout file <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#34;HTML&#34;</span> <span style="color:#66d9ef">for</span> kind <span style="color:#e6db74">&#34;section&#34;</span>: You should create a template file which matches Hugo Layouts Lookup Rules <span style="color:#66d9ef">for</span> this combination.
 </span></span><span style="display:flex;"><span>WARN 2023/09/13 19:39:35 found no layout file <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#34;HTML&#34;</span> <span style="color:#66d9ef">for</span> kind <span style="color:#e6db74">&#34;taxonomy&#34;</span>: You should create a template file which matches Hugo Layouts Lookup Rules <span style="color:#66d9ef">for</span> this combination.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                   | EN  
+</span></span><span style="display:flex;"><span>                   | EN
 </span></span><span style="display:flex;"><span>-------------------+-----
-</span></span><span style="display:flex;"><span>  Pages            |  <span style="color:#ae81ff">4</span>  
-</span></span><span style="display:flex;"><span>  Paginator pages  |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Non-page files   |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Static files     |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Processed images |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Aliases          |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Sitemaps         |  <span style="color:#ae81ff">1</span>  
-</span></span><span style="display:flex;"><span>  Cleaned          |  <span style="color:#ae81ff">0</span>  
+</span></span><span style="display:flex;"><span>  Pages            |  <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>  Paginator pages  |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Non-page files   |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Static files     |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Processed images |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Aliases          |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Sitemaps         |  <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  Cleaned          |  <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Built in <span style="color:#ae81ff">5</span> ms
 </span></span><span style="display:flex;"><span>Watching <span style="color:#66d9ef">for</span> changes in /home/lino/github/dev.ogr.app/<span style="color:#f92672">{</span>archetypes,content,data,layouts,static<span style="color:#f92672">}</span>
@@ -138,19 +141,19 @@ theme folder created earlier. For Hugo to actually use the theme, a simple addit
 <p>After confirming in the browser that both the home page and the individual post view look fine, I let Hugo generate all the files needed to deploy this iteration of the dev.ogr.app blog.</p>
 
 <div class="codeblock overflow-hidden my-2"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lino@WIN-NEUTRON:~/github/dev.ogr.app$ hugo
-</span></span><span style="display:flex;"><span>Start building sites … 
+</span></span><span style="display:flex;"><span>Start building sites …
 </span></span><span style="display:flex;"><span>hugo v0.92.2+extended linux/amd64 BuildDate<span style="color:#f92672">=</span>2023-01-31T11:11:57Z VendorInfo<span style="color:#f92672">=</span>ubuntu:0.92.2-1ubuntu0.1
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                   | EN  
+</span></span><span style="display:flex;"><span>                   | EN
 </span></span><span style="display:flex;"><span>-------------------+-----
-</span></span><span style="display:flex;"><span>  Pages            |  <span style="color:#ae81ff">6</span>  
-</span></span><span style="display:flex;"><span>  Paginator pages  |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Non-page files   |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Static files     |  <span style="color:#ae81ff">1</span>  
-</span></span><span style="display:flex;"><span>  Processed images |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Aliases          |  <span style="color:#ae81ff">0</span>  
-</span></span><span style="display:flex;"><span>  Sitemaps         |  <span style="color:#ae81ff">1</span>  
-</span></span><span style="display:flex;"><span>  Cleaned          |  <span style="color:#ae81ff">0</span>  
+</span></span><span style="display:flex;"><span>  Pages            |  <span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>  Paginator pages  |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Non-page files   |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Static files     |  <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  Processed images |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Aliases          |  <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  Sitemaps         |  <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  Cleaned          |  <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Total in <span style="color:#ae81ff">15</span> ms
 </span></span><span style="display:flex;"><span>lino@WIN-NEUTRON:~/github/dev.ogr.app$ ls -R public/
@@ -176,6 +179,26 @@ theme folder created earlier. For Hugo to actually use the theme, a simple addit
 </span></span><span style="display:flex;"><span>public/tags:
 </span></span><span style="display:flex;"><span>index.xml</span></span></code></pre></div></div>
 </div>
+
+    
+<div class="my-4">
+    <span class="mr-2">Tags:</span>
+    
+    
+        
+        
+        
+        <a href="/tags/hugo"><span class="inline-block whitespace-nowrap rounded-full bg-primary-100 p-2 text-center align-baseline font-bold leading-none text-primary-700 dark:bg-slate-900 dark:text-primary-500">hugo</a>
+</a>
+         
+    
+        <a href="/tags/ogr"><span class="inline-block whitespace-nowrap rounded-full bg-primary-100 p-2 text-center align-baseline font-bold leading-none text-primary-700 dark:bg-slate-900 dark:text-primary-500">ogr</a>
+</a>
+        
+    
+    
+    
+  </div>
   </section>
 
       </div></div>

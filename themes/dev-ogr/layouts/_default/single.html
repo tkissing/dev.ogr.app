@@ -1,6 +1,11 @@
 {{ define "main" }}
   <section class="single m-2">
-    <h1>{{ .Title }} ({{ .Date | time.Format ":date_medium" }})</h1>
-    <div class="content">{{ .Content }}</div>
+    <h1 class="text-[1.2rem]">
+      {{ .Title }} ({{ .Date | time.Format ":date_medium" }})
+    </h1>
+
+    <div class="my-2">{{ .Content }}</div>
+
+    {{ partial "pagetags" . }}
   </section>
 {{ end }}

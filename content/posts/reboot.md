@@ -2,6 +2,9 @@
 title: "Reboot"
 date: 2025-03-03T22:37:50-08:00
 draft: false
+tags:
+    - hugo
+    - ogr
 ---
 
 # Reboot

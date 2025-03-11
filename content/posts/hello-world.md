@@ -2,11 +2,14 @@
 title: "Hello World"
 date: 2023-09-13T18:49:36-07:00
 draft: false
+tags:
+    - hugo
+    - ogr
 ---
 
 # Introduction
 
-My name is Timo and I have been a Software Engineer by trade for over 20 years now. My first coding experiences reach back even further, some time in the late 80s or early 90s when I edited Basic code and memory contents of games on my Commodore C64. 
+My name is Timo and I have been a Software Engineer by trade for over 20 years now. My first coding experiences reach back even further, some time in the late 80s or early 90s when I edited Basic code and memory contents of games on my Commodore C64.
 
 If all goes to plan, over the next few months this blog and the associated Github repository will document my journey in learning [Hugo](https://gohugo.io/) and [Go](https://go.dev) as well as refreshing my knowledge about modern CSS and JavaScript.
 
@@ -76,7 +79,7 @@ After typing in the above content, I was curious to see if the empty theme I had
 
 ```bash
 lino@WIN-NEUTRON:~/github/dev.ogr.app$ hugo server -D
-Start building sites … 
+Start building sites …
 hugo v0.92.2+extended linux/amd64 BuildDate=2023-01-31T11:11:57Z VendorInfo=ubuntu:0.92.2-1ubuntu0.1
 WARN 2023/09/13 19:39:35 found no layout file for "HTML" for kind "page": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 WARN 2023/09/13 19:39:35 found no layout file for "HTML" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
@@ -84,16 +87,16 @@ WARN 2023/09/13 19:39:35 found no layout file for "HTML" for kind "taxonomy": Yo
 WARN 2023/09/13 19:39:35 found no layout file for "HTML" for kind "section": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 WARN 2023/09/13 19:39:35 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
-                   | EN  
+                   | EN
 -------------------+-----
-  Pages            |  4  
-  Paginator pages  |  0  
-  Non-page files   |  0  
-  Static files     |  0  
-  Processed images |  0  
-  Aliases          |  0  
-  Sitemaps         |  1  
-  Cleaned          |  0  
+  Pages            |  4
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Sitemaps         |  1
+  Cleaned          |  0
 
 Built in 5 ms
 Watching for changes in /home/lino/github/dev.ogr.app/{archetypes,content,data,layouts,static}
@@ -110,7 +113,7 @@ As you can see in above output, a few layout files were still missing, so openin
 
 ## Creating the first layouts
 
-The Hugo Layouts Lookup Rules mentioned here are explained in the Hugo docs at https://gohugo.io/templates/lookup-order/ and some of those files exist already in the right place in the 
+The Hugo Layouts Lookup Rules mentioned here are explained in the Hugo docs at https://gohugo.io/templates/lookup-order/ and some of those files exist already in the right place in the
 theme folder created earlier. For Hugo to actually use the theme, a simple addition of
 
 ```yaml
@@ -156,19 +159,19 @@ After confirming in the browser that both the home page and the individual post 
 
 ```bash
 lino@WIN-NEUTRON:~/github/dev.ogr.app$ hugo
-Start building sites … 
+Start building sites …
 hugo v0.92.2+extended linux/amd64 BuildDate=2023-01-31T11:11:57Z VendorInfo=ubuntu:0.92.2-1ubuntu0.1
 
-                   | EN  
+                   | EN
 -------------------+-----
-  Pages            |  6  
-  Paginator pages  |  0  
-  Non-page files   |  0  
-  Static files     |  1  
-  Processed images |  0  
-  Aliases          |  0  
-  Sitemaps         |  1  
-  Cleaned          |  0  
+  Pages            |  6
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  1
+  Processed images |  0
+  Aliases          |  0
+  Sitemaps         |  1
+  Cleaned          |  0
 
 Total in 15 ms
 lino@WIN-NEUTRON:~/github/dev.ogr.app$ ls -R public/
@@ -194,4 +197,3 @@ index.html
 public/tags:
 index.xml
 ```
-
