@@ -21,3 +21,5 @@
 go.work
 
 hugo_stats.json
+
+node_modules/
